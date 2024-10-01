@@ -1,0 +1,105 @@
+/* Media Query for tablets (min-width: 768px) */
+@media screen and (min-width: 768px) {
+  .xircular {
+    margin-left: 8rem !important;
+  }
+  #headingtext {
+    margin-left: 10rem !important ;
+  }
+}
+
+/* Media Query for desktops (min-width: 1024px) */
+@media screen and (min-width: 1024px) {
+  #avatar-card {
+    background-color: inherit !important;
+  }
+  .xircular {
+    margin-left: 15rem !important;
+  }
+  #headingtext {
+    margin-left: 18rem !important;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+/* Media Query for smaller devices (max-width: 767px) */
+@media screen and (max-width: 767px) {
+  #avatar-card {
+    background-color: transparent !important; /* Remove background color on mobile */
+    box-shadow: none !important;
+    width: 100% !important;
+  }
+  .apprikart {
+    height: 1.5rem !important;
+    margin-right: 0.5rem !important;
+  }
+  .xircular {
+    height: 1.75rem !important;
+    width: 5rem !important;
+  }
+  #headingtext {
+    margin-top:0.25rem !important;
+    font-size: 0.95rem !important;
+    line-height: 1rem !important;
+    font-weight: bold;
+  }
+  .nav-divider{
+    margin-top: 0.75rem;
+  }
+  .session-card{
+    padding: 1rem !important;
+    margin-top: 2rem !important;
+  }
+  .custom-avatar{
+    line-height: 1 !important;
+    font-weight: 600 !important;
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+    margin-bottom: 1rem;
+  }
+  #session-btn{
+    margin-top:4rem ;
+  }
+  .video{
+    width: 86% !important;
+    height: 335px !important;
+    border-radius: 13px !important;
+    object-fit: cover !important;
+    filter:hue-rotate(5deg) !important;
+    margin-top:0.5rem !important;
+  }
+  #avatarsession-btn{
+    margin-top: 27rem !important;
+  }
+  #textInput{
+    margin-top: 12rem !important;
+  }
+}
+@media screen and (min-width: 390px) and (max-width:440px) {
+  #avatarsession-btn{
+    margin-top: 28rem !important;
+  }
+  #textInput{
+    margin-top: 23rem !important;
+  }
+}
+/* Media Query for smaller devices (max-width: 365px) */
+@media screen and (max-width: 365px) {
+  #headingtext {
+    font-size: 0.85rem !important;
+  }
+  .video{
+    width: 86% !important;
+    height: 335px !important;
+    border-radius: 13px !important;
+    object-fit: cover !important;
+    filter:hue-rotate(5deg) !important;
+    margin-top:0.5rem !important;
+  }
+  #avatarsession-btn{
+    margin-top: 24rem !important;
+  }
+  #textInput{
+    margin-top: 12rem !important;
+  }
+}
