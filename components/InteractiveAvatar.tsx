@@ -270,7 +270,7 @@ export default function InteractiveAvatar() {
           console.log("Enter inside the code", isSessionActive)
           // Update the Gpt Output Showing
           const name = localStorage.getItem("name")
-          const text = `Hi ${name}, great to have you here! Let me assist you in finding the perfect Kia Seltos. Would you like to know more about the Kia Seltos and service and maintaince features?`
+          const text = `Hi ${name}, welcome to Kia Service! We're here to help keep your Kia vehicle running smoothly. Need information on maintenance or service options? We're ready to assist!`
           console.log("sessionId", data.sessionId);
 
           const newUserMessage: ChatMessage = {
