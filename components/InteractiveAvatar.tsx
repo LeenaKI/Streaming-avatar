@@ -1,4 +1,4 @@
-import { AVATARS, VOICES ,KNOWLWEDGE } from "@/app/lib/constants";
+import { AVATARS, VOICES ,KNOWLEDGE } from "@/app/lib/constants";
 import {
   Configuration,
   NewSessionData,
@@ -116,7 +116,7 @@ export default function InteractiveAvatar() {
             quality: "medium",
             avatarName: "Tyler-incasualsuit-20220721",
             voice: { voiceId: "077ab11b14f04ce0b49b5f6e5cc20979" },
-            knowledgeBase: KNOWLWEDGE
+            knowledgeBase: KNOWLEDGE
           },
         },
       );
